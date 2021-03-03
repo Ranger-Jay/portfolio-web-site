@@ -1,0 +1,45 @@
+/* This makes my parapraphs normal red with the millions of RGB choices*/
+p {
+  color: rgb(196, 20, 20);
+  font-family: 'Times New Roman';
+  font-size: 16px;
+}
+
+/* This makes the starting dots of my lists normal green with one of the 140 words (of color) choices forr dots and numbers*/
+ul {
+  color:green;
+  }
+
+ol {
+  color: green;
+  font-family: 'Comic Sans MS', 'Arial';
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* body format */
+body {
+  background: content-box radial-gradient(white, skyblue);
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 1em;
+  text-align: left;
+}
+
+/* centers the headers */
+h1,h2, h3 {
+  text-align: center
+}
+
+/* Aligns footeer ot right */
+footer {
+text-align: right
+}
+
+/* styled links - mouse over pseudo-class */
+a:hover {
+  color: black;
+}
