@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Junior Developer Card </title>
 
-    <!-- Adding normalization file first, to "normalize" between browsers, then my own css href second, to load corrrectly. -->
+    <!-- Adding normalization file first, to "normalize" between browsers, then my own css href second, to load correctly. -->
 
        <link
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
@@ -13,20 +13,25 @@
 
   <!-- end of head section--> 
 </head>
-<!-- Containing the main and article around thee body. -->
-<main>
-  <article>
+<!-- Containing the main and article inside the body. -->
 <body>
+ <main>
+  <article>
+
   <!-- h1 is my name, h2 is title, and h3 will be headings of each section -->
 
 <h1>Jay Rietzke</h1>
 <h2>Junior Developer in Training</h2>
 <hr>
 <h3>About Me</h3>
-<img src="thinkful-pic.jpg">      
-<p><b>Hello, and welcome to my online busiess card.  I am located in Miami, Florida. I am a new developer in training at <a href="https://www.thinkful.com">thinkful</a>. I am very excited to be joining this industry! I look forward to working with people from all walks of life and backgrounds, to make your web projects come to life!</b></p>
+<img src="thinkful-pic.jpg"
+     title="Jay's thinkful-pic"
+     alt="Student picture of Jay at Thinkful">
+<p><b>Hello, and welcome to my online busiess card. I am located in Miami, Florida.
+  I am a new developer in training at <a href="https://www.thinkful.com">thinkful</a>. I am very excited to be joining this industry!
+  I look forward to working with people from all walks of life and backgrounds, to make your web projects come to life!</b></p>
 <hr>
-<!-- horizontal line between sectionss, and special highlighting  for my skills to make them stand out. -->
+<!-- horizontal line between sections, and special highlighting for my skills to make them stand out. -->
 <h3>My Skills</h3>
 <ol>
   <li><mark><b>Java Script</b></mark></li>
@@ -51,8 +56,9 @@
 <hr>
 <!-- Adding js reference at the end of the body, instead of the head so that page loads faster. -->
    <script src="script.js"></script>
-   <footer><p>Copyright 2021</p></footer>
-</main>
+   <footer><p>Copyright (all rights reserved)</p></footer>
+
 </article>
+ </main>
   </body>
 </html>
