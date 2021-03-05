@@ -5,13 +5,14 @@ p {
   font-size: 16px;
 }
 
-/* This makes the starting dots of my lists normal green with one of the 140 words (of color) choices forr dots and numbers*/
+/* This makes the starting dots of my unordered lists normal green with one of the 140 words (of color) choices*/
 ul {
   color:green;
   }
 
+/* This makes the starting numberrs of my ordered lists colored blue, from one of the millions of choices*/
 ol {
-  color: green;
+  color: rgb(23, 0, 128);
   font-family: 'Comic Sans MS', 'Arial';
   font-style: italic;
   font-size: 18px;
@@ -34,7 +35,7 @@ h1,h2, h3 {
   text-align: center
 }
 
-/* Aligns footeer ot right */
+/* Aligns footer to right */
 footer {
 text-align: right
 }
